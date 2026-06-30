@@ -1,0 +1,61 @@
+canonical_identifier: bkk:krp/KR4b0026/v1
+canonical_location: https://kanripo.org/bkk/KR4b0026/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 荀公曾集三卷
+  identifiers:
+    krp: KR4b0026
+  tags:
+    kr-categories: KR4b
+    tls-dates: dat04500
+  source:
+    repository: tls-texts
+    path: data/tls/KR4b0026.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 1, filename: KR4b0026_001.yaml, hash: 'sha256:f2e2fa015849eb176d6d6d16ca1cc30eea2672de4649ffa526614c7304c4c148'}
+  - {seq: 2, filename: KR4b0026_002.yaml, hash: 'sha256:4e88348f84f16fa32a4757064c2e42efe26fb929cd86383f108790daf03cc93c'}
+  - {seq: 3, filename: KR4b0026_003.yaml, hash: 'sha256:01b9d94d1671ba1d1aeeeea0a9d80f6db0b5fca124d1b5678737c39eccd4e0d1'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR4b0026_001.markers.yaml, hash: 'sha256:0bb6b2f4220d13acd3c897204e9e734b29bbf5eb41ef2eb80f2a57e26ca8f64a'}
+  - {seq: 2, role: markers, filename: assets/KR4b0026_002.markers.yaml, hash: 'sha256:d6ed49e8b46712147c252e8e4b8d1f93529c6fefbf0ea9d7b406e99b770bdd93'}
+  - {seq: 3, role: markers, filename: assets/KR4b0026_003.markers.yaml, hash: 'sha256:7c1561c2d0cb0cf3ef425be4d32f3b765f6a84fae5355d451a92d5d046559cfa'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR4b0026_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 161
+  label: 卷一
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR4b0026_CHANT_002-1a.1-h
+    span:
+    - body
+    - 0
+    - 3758
+  label: 卷二
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR4b0026_CHANT_003-1a.1-h
+    span:
+    - body
+    - 0
+    - 1222
+  label: 晉四箱樂歌十七篇
+  type: section
+  level: 1
+hash: sha256:3900721302c3c9ad05f37bda3ebb2a63c961e9c48da8e9797de5217d9b32b561
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
