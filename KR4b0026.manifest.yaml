@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR4b0026/v1
 canonical_location: https://kanripo.org/bkk/KR4b0026/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 荀公曾集三卷
   identifiers:
@@ -17,13 +17,13 @@ metadata:
     short: bkk
 assets:
   parts:
-  - {seq: 1, filename: KR4b0026_001.yaml, hash: 'sha256:6179bcbd2142cdee912bea3254a1f5a59a5a432a9dc40978328549023d998050'}
-  - {seq: 2, filename: KR4b0026_002.yaml, hash: 'sha256:5a28e7971503473847d597caf97d840794f1d95c6998bdf83622249eb09db68a'}
-  - {seq: 3, filename: KR4b0026_003.yaml, hash: 'sha256:4ec1627fabdabf527a5a7a4cc359acd5502bf47a86f3ec9e30b6befc3f64c50b'}
+  - {seq: 1, filename: KR4b0026_001.yaml, hash: 'sha256:f2e2fa015849eb176d6d6d16ca1cc30eea2672de4649ffa526614c7304c4c148'}
+  - {seq: 2, filename: KR4b0026_002.yaml, hash: 'sha256:02101b2e31554e287743a30e86318f703beb132f715783355ba2ffb5066ff69b'}
+  - {seq: 3, filename: KR4b0026_003.yaml, hash: 'sha256:3ed6ceea0d1af6589579c1db4d9f5aec4c2cb436ca0fc0b31bd79636f597d3de'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR4b0026_001.markers.yaml, hash: 'sha256:ba4efe68b15f086d6e145ef1410e0cbbc2c7d87d413b4cc2309e9e3d6c133658'}
-  - {seq: 2, role: markers, filename: assets/KR4b0026_002.markers.yaml, hash: 'sha256:13e417c9d9d123d4c56b2ec4086b9dee204387382d850702fe20ece3e923d071'}
-  - {seq: 3, role: markers, filename: assets/KR4b0026_003.markers.yaml, hash: 'sha256:b0fe337f87795b529589262c5a7e4a719a8b42982f5579eacb4f65b4581ef401'}
+  - {seq: 1, role: markers, filename: assets/KR4b0026_001.markers.yaml, hash: 'sha256:c6688c6c42c36f0394072c4b339cdd66107bda8aa0f3ab6ce22282e22767312f'}
+  - {seq: 2, role: markers, filename: assets/KR4b0026_002.markers.yaml, hash: 'sha256:7750bf4dcae4e8f846bd808d359956facc943c86e1582c2a548de0ac2369f9bb'}
+  - {seq: 3, role: markers, filename: assets/KR4b0026_003.markers.yaml, hash: 'sha256:76d3e4caedc6b3c48dd0e268e84934fd51958b630b153987d5a78dc732796c0d'}
 table_of_contents:
 - ref:
     seq: 1
@@ -55,4 +55,7 @@ table_of_contents:
   label: 晉四箱樂歌十七篇
   type: section
   level: 1
-hash: sha256:63c29e52911af71e81c9c7ce0a229426895dfd3b5f00617286f9f52f004faa73
+hash: sha256:0652d8c9ea591392a19489aa2707de8e7dfff6e9d2dd538d17a6ee1f172bc7fe
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
